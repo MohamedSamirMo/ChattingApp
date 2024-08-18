@@ -1,0 +1,18 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <!-- Style for circular image -->
+    <style name="CircularImageStyle">
+        <item name="shapeAppearanceOverlay">@style/CircularShape</item>
+    </style>
+
+    <!-- Define circular shape appearance -->
+    <style name="CircularShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50dp</item>
+    </style>
+    <style name="CircularShape2">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item> <!-- This makes it a circle -->
+    </style>
+
+</resources>
